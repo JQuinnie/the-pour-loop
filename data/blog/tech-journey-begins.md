@@ -1,6 +1,6 @@
 ---
 title: The Beginning of a Tech Journey
-date: '03-24-2018'
+date: '2018-03-24'
 tags: ['development', 'bootcamp', 'tech']
 draft: false
 summary: 'I have taken a leap of faith and changed careers.'
