@@ -18,6 +18,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        comfortaa: ['Comfortaa', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.teal,
@@ -30,13 +31,20 @@ module.exports = {
           blue: '#93ddfd',
           white: '#fff',
         },
+        pheasant: '#C48162',
+        espresso: '#331D1A',
+        seafoam: '#C9D6B0',
+        marsala: '#975152',
+        marsalaLight: '#EB9A9A',
+        marsalaDark: '#693136',
+        offWhite: '#F4EDED',
       },
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.gray.700'),
+            color: theme('colors.marsalaDark'),
             a: {
-              color: theme('colors.primary.500'),
+              color: theme('colors.seafoam'),
               '&:hover': {
                 color: theme('colors.primary.600'),
               },
@@ -45,19 +53,19 @@ module.exports = {
             h1: {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.900'),
+              color: theme('colors.marsalaLight'),
             },
             h2: {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.900'),
+              color: theme('colors.marsalaLight'),
             },
             h3: {
               fontWeight: '600',
-              color: theme('colors.gray.900'),
+              color: theme('colors.marsalaLight'),
             },
             'h4,h5,h6': {
-              color: theme('colors.gray.900'),
+              color: theme('colors.marsalaLight'),
             },
             code: {
               color: theme('colors.pink.500'),
@@ -74,13 +82,13 @@ module.exports = {
             'code:after': {
               content: 'none',
             },
-            hr: { borderColor: theme('colors.gray.200') },
+            hr: { borderColor: theme('colors.marsalaDark') },
             'ol li:before': {
               fontWeight: '600',
-              color: theme('colors.gray.500'),
+              color: theme('colors.marsalaDark'),
             },
             'ul li:before': {
-              backgroundColor: theme('colors.gray.500'),
+              backgroundColor: theme('colors.marsalaDark'),
             },
             strong: { color: theme('colors.gray.600') },
             blockquote: {
@@ -91,35 +99,35 @@ module.exports = {
         },
         dark: {
           css: {
-            color: theme('colors.gray.300'),
+            color: theme('colors.offWhite'),
             a: {
-              color: theme('colors.primary.500'),
+              color: theme('colors.seafoam'),
               '&:hover': {
-                color: theme('colors.primary.400'),
+                color: theme('colors.marsalaLight'),
               },
-              code: { color: theme('colors.primary.400') },
+              code: { color: theme('colors.marsalaLight') },
             },
             h1: {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.100'),
+              color: theme('colors.marsalaLight'),
             },
             h2: {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.100'),
+              color: theme('colors.marsalaLight'),
             },
             h3: {
               fontWeight: '600',
-              color: theme('colors.gray.100'),
+              color: theme('colors.marsalaLight'),
             },
             'h4,h5,h6': {
-              color: theme('colors.gray.100'),
+              color: theme('colors.marsalaLight'),
             },
             code: {
-              backgroundColor: theme('colors.gray.800'),
+              backgroundColor: theme('colors.marsalaDark'),
             },
-            hr: { borderColor: theme('colors.gray.700') },
+            hr: { borderColor: theme('colors.offWhite') },
             'ol li:before': {
               fontWeight: '600',
               color: theme('colors.gray.400'),

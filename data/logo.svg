@@ -1,3 +1,134 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="344.5639097744361 330.27819548872174 111.73684210526318 91.21804511278197" width="53.87" height="43.61"><defs><path d="M453.3 331.28L453.3 359.85L388.64 418.5L388.64 388.42L453.3 331.28Z" id="aFZf6T5ED"></path><linearGradient id="gradientb2ThqnP5Op" gradientUnits="userSpaceOnUse" x1="420.97" y1="331.28" x2="420.97" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient><path d="M410.23 331.28L410.23 359.85L345.56 418.5L345.56 388.42L410.23 331.28Z" id="a9fehgwfM"></path><linearGradient id="gradientk1wNV9Ostb" gradientUnits="userSpaceOnUse" x1="377.89" y1="331.28" x2="377.89" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient></defs><g><g><use xlink:href="#aFZf6T5ED" opacity="1" fill="url(#gradientb2ThqnP5Op)"></use></g><g><use xlink:href="#a9fehgwfM" opacity="1" fill="url(#gradientk1wNV9Ostb)"></use></g></g></svg>
+<svg
+   data-v-fde0c5aa=""
+   viewBox="0 0 200 200"
+   class="iconLeft"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="logo-transparent_200x200.svg"
+   width="50"
+   height="50"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   inkscape:export-filename="/Users/jchu-macbook/Documents/ThePourLoop/logo-transparent-2_200x200.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     width="200px"
+     inkscape:zoom="3.6981685"
+     inkscape:cx="100.04952"
+     inkscape:cy="100.04952"
+     inkscape:window-width="1833"
+     inkscape:window-height="1272"
+     inkscape:window-x="1373"
+     inkscape:window-y="576"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer3" />
+  <!---->
+  <defs
+     data-v-fde0c5aa=""
+     id="defs7">
+    <linearGradient
+       data-v-fde0c5aa=""
+       id="74caee3f-9457-45d2-9b08-dce6e684db33"
+       x1="0"
+       y1="0"
+       x2="300"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-111.95219,1.9920319)">
+      <stop
+         data-v-fde0c5aa=""
+         offset="0%"
+         stop-color="#87544E"
+         stop-opacity="1"
+         id="stop2" />
+      <stop
+         data-v-fde0c5aa=""
+         offset="100%"
+         stop-color="#87544E"
+         stop-opacity="1"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <defs
+     data-v-fde0c5aa=""
+     id="defs11">
+    <!---->
+  </defs>
+  <defs
+     data-v-fde0c5aa=""
+     id="defs16">
+    <!---->
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="background"
+     style="display:none">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.49035;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect20167"
+       width="200"
+       height="200"
+       x="0.10717111"
+       y="-0.16323291" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="circle" />
+  <!---->
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="kettle" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="loop">
+    <g
+       id="g954">
+      <circle
+         style="fill:none;stroke:#EB9A9A;stroke-width:9.44679;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1260"
+         cx="99.781006"
+         cy="100.14474"
+         r="92.776604" />
+      <g
+         data-v-fde0c5aa=""
+         id="2627c0fd-1a24-46c1-a1bb-392d246df096"
+         stroke="none"
+         fill="#ffffff"
+         transform="matrix(1.7109882,0,0,1.7109882,16.885063,8.8593653)"
+         style="fill:#EB9A9A;fill-opacity:1;stroke:none;stroke-opacity:1">
+        <path
+           d="m 18,73 h 1.525 l -1.608,7.165 A 5.6,5.6 0 0 0 23.379,87 h 53.989 a 5.6,5.6 0 0 0 5.465,-6.822 L 72.486,33 h 2.073 a 6.656,6.656 0 0 1 6.509,5.335 l 3.971,19.856 A 2,2 0 0 0 87,59.8 1.979,1.979 0 0 0 87.394,59.76 2,2 0 0 0 88.963,57.407 L 84.99,37.551 A 10.666,10.666 0 0 0 74.559,29 H 72 V 25.573 A 5.579,5.579 0 0 0 66.427,20 H 55.787 A 5.5,5.5 0 1 0 45.213,20 H 34.573 A 5.579,5.579 0 0 0 29,25.573 v 5.2 L 20.422,69 H 18 c -3.867,0 -4,-7.923 -4,-8 V 35 C 14,26.509 8.3,23.451 5.283,23.02 A 2,2 0 0 0 4.7,26.977 C 5.24,27.066 10,28.049 10,35 v 26 c 0,4.457 1.685,12 8,12 z M 50.5,17 A 1.5,1.5 0 1 1 49,18.5 1.5,1.5 0 0 1 50.5,17 Z M 33,25.573 A 1.575,1.575 0 0 1 34.573,24 H 66.427 A 1.575,1.575 0 0 1 68,25.573 V 29 H 33 Z M 21.819,81.044 32.6,33 H 68.39 L 78.929,81.048 A 1.6,1.6 0 0 1 77.368,83 H 23.379 a 1.6,1.6 0 0 1 -1.56,-1.956 z"
+           id="path18"
+           style="fill:#EB9A9A;fill-opacity:1;stroke:none;stroke-opacity:1" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.5362px;line-height:1.25;font-family:Krungthep;-inkscape-font-specification:'Krungthep, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c9d6b0;fill-opacity:1;stroke:none;stroke-width:3.77872"
+         x="61.95406"
+         y="136.18735"
+         id="text6961"><tspan
+           sodipodi:role="line"
+           id="tspan6959"
+           x="61.95406"
+           y="136.18735"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.5362px;font-family:Krungthep;-inkscape-font-specification:'Krungthep, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:3.77872;fill:#c9d6b0;fill-opacity:1">∞</tspan></text>
+    </g>
+  </g>
+</svg>
