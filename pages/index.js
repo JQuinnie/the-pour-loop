@@ -44,7 +44,7 @@ export default function Home({ posts }) {
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-offWhite"
+                              className="text-marsalaDark dark:text-offWhite"
                             >
                               {title}
                             </Link>
@@ -55,7 +55,7 @@ export default function Home({ posts }) {
                             ))}
                           </div>
                         </div>
-                        <div className="prose text-gray-500 max-w-none dark:text-marsalaLight">
+                        <div className="prose text-marsala max-w-none dark:text-marsalaLight">
                           {summary}
                         </div>
                       </div>
