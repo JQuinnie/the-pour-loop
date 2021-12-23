@@ -1,7 +1,7 @@
 ---
 title: The Beginning of a Tech Journey
 date: '2018-03-24'
-tags: ['development', 'bootcamp', 'tech']
+tags: ['bootcamp', 'development', 'tech']
 draft: false
 summary: 'I have taken a leap of faith and changed careers.'
 layout: PostSimple
