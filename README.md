@@ -4,7 +4,7 @@
 
 Hey, hello there 👋 &nbsp; I'm Jenn!
 
-This is the place where I babble about coffee and tech.
+This is the place where I babble about coffee and tech 👉 &nbsp;[The Pour Loop](www.thepourloop.com)
 
 ## Credits
 
