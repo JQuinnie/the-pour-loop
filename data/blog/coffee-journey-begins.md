@@ -1,6 +1,6 @@
 ---
 title: The Beginning of a Coffee Journey
-date: '2021-07-11'
+date: '2021-07-10'
 tags: ['coffee', 'pourover']
 draft: false
 summary: 'Journey of a pour-over dabbler. Novice coffee consumer. Begins here.'
