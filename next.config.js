@@ -38,7 +38,4 @@ module.exports = withBundleAnalyzer({
 
     return config
   },
-  images: {
-    domains: ['blue-bottle-cms.global.ssl.fastly.net', 'en.timemore.com', 'i5.walmartimages.com'],
-  },
 })

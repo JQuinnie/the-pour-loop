@@ -30,3 +30,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+img[alt^='ximage'] {
+  width: 400px;
+}
