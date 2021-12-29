@@ -41,3 +41,9 @@ The process table above was the guideline I was trying to pour by... definitely 
 The taste was pretty good, very strong... but me feeling accomplished in the taste has more to do with my lack of refined palate than anything else. This was a grocery store bought bag of beans that was sitting on the self for at least two months before I got my hand on it. One thing I did notice was how smooth the pour over was... the dripper and filter combo really brews a clean cup of coffee.
 
 ![first-pour](/static/images/20210718-1.png)
+
+## Blue Bottle Dripper
+
+Here is a picture of my Blue Bottle Dripper pourover kit.
+
+![blue-bottle-kit](/static/images/20210718-2.png)

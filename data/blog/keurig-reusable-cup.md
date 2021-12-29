@@ -1,7 +1,7 @@
 ---
 title: Keurig Reusable K-Cup
 date: '2021-08-05'
-tags: ['coffee', 'method', 'k-cup', 'keurig']
+tags: ['coffee', 'k-cup', 'keurig', 'method']
 draft: false
 summary: 'A Better K-Cup with Keurig.'
 layout: PostSimple
