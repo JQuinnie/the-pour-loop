@@ -28,3 +28,5 @@ Before I had my pourover tools, I used a Keurig machine religiously... mainly be
 ## Thoughts
 
 The brew is faster so it tends to be not as bitter or as bold. But having fresh beans definitely takes it up a level from burnt dullness which is the usual flavor of k-cups.
+
+![20210805-1](/static/images/20210805-1.jpg)

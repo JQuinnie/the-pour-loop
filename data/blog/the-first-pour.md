@@ -34,6 +34,8 @@ More about my tooling [here](/blog/coffee-tools/beginning-set).
 | 1:10 | 250g  |
 | 1:40 | 320g  |
 
+More about the process [here](/blog/coffee-guide/process).
+
 ## Thoughts
 
 The process table above was the guideline I was trying to pour by... definitely missed all the markers because I poured too slow. The recommended pour speed is about 10g/sec... but watching the time, steadying my hand and the anxiety of the first pour pretty much threw me off.
