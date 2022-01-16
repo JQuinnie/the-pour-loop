@@ -23,6 +23,18 @@ export default function Home({ posts }) {
             Latest
           </h1>
           <p className="text-lg leading-7 dark:text-marsalaLight">{siteMetadata.description}</p>
+          <p className="dark:text-marsala">
+            Start following the journey{' '}
+            <span role="img" aria-label="finger pointing">
+              👉
+            </span>{' '}
+            <Link
+              className="text-sm dark:text-seafoam hover:text-marsala dark:hover:text-marsalaLight"
+              href="/blog/coffee-journey-begins"
+            >
+              HERE
+            </Link>
+          </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
