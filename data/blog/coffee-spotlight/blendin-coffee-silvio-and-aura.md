@@ -1,5 +1,5 @@
 ---
-title: Blendin Coffee Silvio And Aura
+title: Spotlight - Blendin Coffee Silvio And Aura
 date: '2021-10-17'
 tags: ['blendin-coffee', 'coffee', 'coffeeshop', 'colombia', 'pourover', 'spotlight']
 draft: false
