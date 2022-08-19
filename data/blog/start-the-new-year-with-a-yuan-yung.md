@@ -41,7 +41,7 @@ A good ratio for yuan yang would be 3:7, 3 parts coffee and 7 parts tea. You can
 
 ## Process
 
-I decided to increase the ratio of coffee to tea just a tad because then I can have the coffee ratio be the same as the [Iced pour over method](/data/blog/iced-pour-over.md) but without the ice.
+I decided to increase the ratio of coffee to tea just a tad because then I can have the coffee ratio be the same as the [Iced pour over method](/blog/iced-pour-over) but without the ice.
 
 Recommended - 3:7
 My method - 1:2
