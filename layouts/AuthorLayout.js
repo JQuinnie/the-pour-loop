@@ -20,8 +20,8 @@ export default function AuthorLayout({ children, frontMatter }) {
             <Image
               src={avatar}
               alt="avatar"
-              width="200px"
-              height="200px"
+              width="200"
+              height="200"
               className="w-48 h-48 rounded-full"
             />
             <h3 className="pt-4 pb-2 text-2xl font-comfortaa font-bold text-marsalaLight leading-8 tracking-tight">
