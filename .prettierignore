@@ -1,0 +1,6 @@
+package.json
+.eslintignore
+.eslintrc.cjs
+.gitattributes
+.gitignore
+.husky

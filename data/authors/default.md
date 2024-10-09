@@ -4,7 +4,6 @@ avatar: /static/images/harley-quinn.png
 occupation: Software Developer
 persona: Passionate dabbler, frequent babbler
 email: jenn@jennchu.com
-twitter: https://twitter.com/Jquinnee
 linkedin: https://www.linkedin.com/in/jennchu
 github: https://github.com/jquinnie
 ---

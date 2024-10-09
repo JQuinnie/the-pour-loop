@@ -22,7 +22,7 @@ module.exports = {
       },
       colors: {
         primary: colors.teal,
-        gray: colors.trueGray,
+        gray: colors.neutral,
         code: {
           green: '#b5f4a5',
           yellow: '#ffe484',
