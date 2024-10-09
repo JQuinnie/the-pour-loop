@@ -15,11 +15,6 @@ export const PageSeo = ({ title, description }) => {
       <meta property="og:description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:image" content={`${siteMetadata.siteUrl}${siteMetadata.socialBanner}`} />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content={siteMetadata.twitter} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={`${siteMetadata.siteUrl}${siteMetadata.socialBanner}`} />
     </Head>
   )
 }
@@ -94,11 +89,6 @@ export const BlogSeo = ({ authorDetails, title, summary, date, lastmod, url, ima
         {featuredImages.map((img) => (
           <meta property="og:image" content={img.url} key={img.url} />
         ))}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content={siteMetadata.twitter} />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={summary} />
-        <meta name="twitter:image" content={featuredImages[0].url} />
         {date && <meta property="article:published_time" content={publishedAt} />}
         {lastmod && <meta property="article:modified_time" content={modifiedAt} />}
         <link rel="canonical" href={`${siteMetadata.siteUrl}${router.asPath}`} />

@@ -4,7 +4,7 @@ import HobbyIcon from '@/components/hobby-icons'
 import siteMetadata from '@/data/siteMetadata'
 
 export default function AuthorLayout({ children, frontMatter }) {
-  const { name, avatar, occupation, persona, email, twitter, linkedin, github } = frontMatter
+  const { name, avatar, occupation, persona, email, linkedin, github } = frontMatter
 
   return (
     <>
