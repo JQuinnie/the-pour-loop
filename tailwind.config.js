@@ -1,15 +1,20 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+// @ts-check
+const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
+/** @type {import("tailwindcss/types").Config } */
 module.exports = {
-  mode: 'jit',
-  purge: ['./pages/**/*.js', './components/**/*.js', './layouts/**/*.js', './lib/**/*.js'],
+  content: [
+    './node_modules/pliny/**/*.js',
+    './app/**/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{js,ts,tsx}',
+    './components/**/*.{js,ts,tsx}',
+    './layouts/**/*.{js,ts,tsx}',
+    './data/**/*.mdx',
+  ],
   darkMode: 'class',
   theme: {
     extend: {
-      spacing: {
-        '9/16': '56.25%',
-      },
       lineHeight: {
         11: '2.75rem',
         12: '3rem',
@@ -17,12 +22,17 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        comfortaa: ['Comfortaa', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter', fontFamily.sans],
+        comfortaa: ['Comfortaa', fontFamily.sans],
+      },
+      zIndex: {
+        60: '60',
+        70: '70',
+        80: '80',
       },
       colors: {
         primary: colors.teal,
-        gray: colors.trueGray,
+        gray: colors.neutral,
         code: {
           green: '#b5f4a5',
           yellow: '#ffe484',
@@ -39,23 +49,18 @@ module.exports = {
         marsalaDark: '#693136',
         offWhite: '#F4EDED',
       },
-      typography: (theme) => ({
+      typography: ({ theme }) => ({
         DEFAULT: {
           css: {
             color: theme('colors.marsalaDark'),
             a: {
               color: theme('colors.primary.600'),
               '&:hover': {
-                color: theme('colors.seafoam'),
+                color: `${theme('colors.seafoam')}`,
               },
               code: { color: theme('colors.primary.400') },
             },
-            h1: {
-              fontWeight: '700',
-              letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.marsalaLight'),
-            },
-            h2: {
+            'h1, h2': {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
               color: theme('colors.marsalaLight'),
@@ -147,6 +152,20 @@ module.exports = {
             blockquote: {
               color: theme('colors.gray.100'),
               borderLeftColor: theme('colors.gray.700'),
+            },
+          },
+        },
+        invert: {
+          css: {
+            a: {
+              color: theme('colors.primary.500'),
+              '&:hover': {
+                color: `${theme('colors.primary.400')}`,
+              },
+              code: { color: theme('colors.primary.400') },
+            },
+            'h1,h2,h3,h4,h5,h6': {
+              color: theme('colors.gray.100'),
             },
           },
         },
