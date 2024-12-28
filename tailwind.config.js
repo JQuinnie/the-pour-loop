@@ -2,6 +2,7 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
+// TODO: some are dupes, invert vs dark
 /** @type {import("tailwindcss/types").Config } */
 module.exports = {
   content: [
@@ -23,7 +24,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', fontFamily.sans],
-        comfortaa: ['Comfortaa', fontFamily.sans],
+        comfortaa: ['var(--font-comfortaa)', fontFamily.sans],
       },
       zIndex: {
         60: '60',
@@ -54,9 +55,9 @@ module.exports = {
           css: {
             color: theme('colors.marsalaDark'),
             a: {
-              color: theme('colors.primary.600'),
+              color: theme('colors.seafoam'),
               '&:hover': {
-                color: `${theme('colors.seafoam')}`,
+                color: `${theme('colors.text-marsalaLight')}`,
               },
               code: { color: theme('colors.primary.400') },
             },
