@@ -2,7 +2,7 @@ import 'css/tailwind.css'
 import 'pliny/search/algolia.css'
 import 'remark-github-blockquote-alert/alert.css'
 
-import { Space_Grotesk, Comfortaa } from 'next/font/google'
+import { Comfortaa } from 'next/font/google'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
 import { SearchProvider, SearchConfig } from 'pliny/search'
 import Header from '@/components/Header'
@@ -11,12 +11,6 @@ import Footer from '@/components/Footer'
 import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
-
-const space_grotesk = Space_Grotesk({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-space-grotesk',
-})
 
 const comfortaa = Comfortaa({
   subsets: ['latin'],
@@ -97,18 +91,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href={`${basePath}/static/favicons/safari-pinned-tab.svg`}
           color="#5bbad5"
         />
-        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
-          rel="stylesheet"
-        /> */}
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
         <link rel="alternate" type="application/rss+xml" href={`${basePath}/feed.xml`} />
       </head>
-      <body className="bg-offWhite pl-[calc(100vw-100%)] text-marsalaDark antialiased dark:bg-espresso dark:text-marsala">
+      <body className="bg-offWhite pl-[calc(100vw-100%)] text-marsalaDark antialiased dark:bg-espresso dark:text-marsalaLight">
         <ThemeProviders>
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
           <SectionContainer>

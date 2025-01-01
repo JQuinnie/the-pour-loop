@@ -2,7 +2,7 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
-// TODO: some are dupes, invert vs dark
+// TODO: some are not used, some are dupes, invert vs dark
 /** @type {import("tailwindcss/types").Config } */
 module.exports = {
   content: [
@@ -55,9 +55,9 @@ module.exports = {
           css: {
             color: theme('colors.marsalaDark'),
             a: {
-              color: theme('colors.seafoam'),
+              color: theme('colors.primary.400'),
               '&:hover': {
-                color: `${theme('colors.text-marsalaLight')}`,
+                color: `${theme('colors.marsalaLight')}`,
               },
               code: { color: theme('colors.primary.400') },
             },
@@ -97,10 +97,6 @@ module.exports = {
               backgroundColor: theme('colors.marsalaDark'),
             },
             strong: { color: theme('colors.gray.600') },
-            blockquote: {
-              color: theme('colors.gray.900'),
-              borderLeftColor: theme('colors.gray.200'),
-            },
           },
         },
         dark: {
@@ -116,22 +112,22 @@ module.exports = {
             h1: {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.marsalaLight'),
+              color: theme('colors.marsala'),
             },
             h2: {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.marsalaLight'),
+              color: theme('colors.marsala'),
             },
             h3: {
               fontWeight: '600',
-              color: theme('colors.marsalaLight'),
+              color: theme('colors.marsala'),
             },
             'h4,h5,h6': {
-              color: theme('colors.marsalaLight'),
+              color: theme('colors.marsala'),
             },
             code: {
-              backgroundColor: theme('colors.marsalaDark'),
+              backgroundColor: theme('colors.marsala'),
             },
             hr: { borderColor: theme('colors.offWhite') },
             'ol li:before': {
@@ -150,23 +146,19 @@ module.exports = {
                 borderBottomColor: theme('colors.gray.700'),
               },
             },
-            blockquote: {
-              color: theme('colors.gray.100'),
-              borderLeftColor: theme('colors.gray.700'),
-            },
           },
         },
         invert: {
           css: {
             a: {
-              color: theme('colors.primary.500'),
+              color: theme('colors.offWhite'),
               '&:hover': {
-                color: `${theme('colors.primary.400')}`,
+                color: `${theme('colors.marsalaLight')}`,
               },
-              code: { color: theme('colors.primary.400') },
+              code: { color: theme('colors.marsalaLight') },
             },
             'h1,h2,h3,h4,h5,h6': {
-              color: theme('colors.gray.100'),
+              color: theme('colors.marsala'),
             },
           },
         },

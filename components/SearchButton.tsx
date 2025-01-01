@@ -2,6 +2,7 @@ import { AlgoliaButton } from 'pliny/search/AlgoliaButton'
 import { KBarButton } from 'pliny/search/KBarButton'
 import siteMetadata from '@/data/siteMetadata'
 
+// TODO: custom styling for kbar menu
 const SearchButton = () => {
   if (
     siteMetadata.search &&
