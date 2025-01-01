@@ -1,0 +1,35 @@
+---
+title: New Year, New Blog!
+date: '2025-01-01'
+tags: ['blog', 'holiday', 'new year', 'tech', 'status', 'tools', 'updates']
+draft: false
+summary: It's a new year and this is a new blog, not exactly... but still...
+layout: PostSimple
+---
+
+Happy New Year!!!
+
+I am back from my long long hiatus...
+I did say this is a new blog, well not exactly. It still looks and feels pretty much the same, but everything under the hood was updated.
+
+The biggest and most painful hurdles were trying to bring all the npm packages 3 years forward. It was tough.
+
+![getting ready](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGhlZ2wxNWZhanh2ZXpwajZhd2IwbGFsbmNmM2M5cnIzMTBkdWhlaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1TzKVQwH820wM/giphy.gif)
+
+Here is a condensed summary of all the things that it took to make this update happen:
+
+- Decide that it was time to get back to my blog (wipes off cobwebs)
+- [Node](https://nodejs.org/) and the [Tailwand-NextJS-Starter-Blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) are outdated
+  - Node from 16.13.1 to 20.18.0
+  - [ESLint](https://eslint.org/) to newer compatible version 8.57.1
+  - Tailwind Next JS updates NextJS from 11 to 14 (NextJS landscaped changed dramatically)
+- Update content and styling to match my old blog
+- Wrestle with [Vercel](https://vercel.com/home) deployment linter
+- Take some notes of areas of future improvements
+
+The <b class="font-bold italic">show stopper</b> was the NextJS update, it required a significant shift in how routing, data fetching, and component rendering are approached.
+The new features introduced, especially with the App Router and Server Components, offer improved performance and better code organization but also some required some refactoring of existing codebases.\
+After that, I decided to instead branch off of the new Tailwind-NextJS-Starter-Blog using NextJS 14 and slowly (painfully), moving my content over and with styling updates.
+In hindsight, there probably would have been an easier way, but I had already went pretty deep down this path to make it back. It took me 3 months to do this update (a few hours here and there).
+
+Now that the blog is up to date, I can keep calm and blog on into 2025! 🥂
