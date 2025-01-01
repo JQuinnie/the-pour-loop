@@ -89,12 +89,11 @@ module.exports = {
               content: 'none',
             },
             hr: { borderColor: theme('colors.marsalaDark') },
-            'ol li:before': {
-              fontWeight: '600',
-              color: theme('colors.marsalaDark'),
+            'ol > li::marker': {
+              color: theme('colors.marsala'),
             },
-            'ul li:before': {
-              backgroundColor: theme('colors.marsalaDark'),
+            'ul > li::marker': {
+              color: theme('colors.marsala'),
             },
             strong: { color: theme('colors.gray.600') },
           },
@@ -130,12 +129,11 @@ module.exports = {
               backgroundColor: theme('colors.marsala'),
             },
             hr: { borderColor: theme('colors.offWhite') },
-            'ol li:before': {
-              fontWeight: '600',
-              color: theme('colors.gray.400'),
+            'ol > li::marker': {
+              color: theme('colors.marsala'),
             },
-            'ul li:before': {
-              backgroundColor: theme('colors.gray.400'),
+            'ul > li::marker': {
+              color: theme('colors.marsala'),
             },
             strong: { color: theme('colors.gray.100') },
             thead: {

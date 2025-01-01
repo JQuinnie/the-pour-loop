@@ -4,9 +4,6 @@ import { Fragment, useEffect, useState } from 'react'
 import { useTheme } from 'next-themes'
 import { Menu, RadioGroup, Transition } from '@headlessui/react'
 
-// TODO:
-// className="text-marsalaDark dark:text-seafoam"
-
 const Sun = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
